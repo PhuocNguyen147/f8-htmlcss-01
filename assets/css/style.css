@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth; /* tạo độ smooth khi bấm vào các nút trên thanh điều hướng*/
+}
+
 html {
     font-size: 62.5%;
 }
@@ -103,7 +108,6 @@ a {
     margin-left: 18px;
     border-radius: 8px;
 }
-
 
 /* ========hero========= */
 
