@@ -52,14 +52,26 @@ a {
 - Còn overflow: hidden để ẩn đi nội dung vượt quá thẻ cha. */
 
 /* ========== Header =========*/
-.header {
+
+.fix-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
     display: flex;
     align-items: center;
 }
@@ -91,6 +103,9 @@ a {
     margin-left: 18px;
     border-radius: 8px;
 }
+
+
+/* ========hero========= */
 
 .hero {
     margin-top: 130px;
